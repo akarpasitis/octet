@@ -169,6 +169,8 @@ namespace octet {
 			first_border_sprite,
 			last_border_sprite = first_border_sprite + num_borders - 1,
 
+			  // create a sprite class for explosion.gif file where the gif file will consist of a set of UVs that will be used as frames
+
 			num_sprites,
 
 		};
@@ -444,7 +446,7 @@ namespace octet {
 				}
 			}
 
-			// set the border to white for clarity
+			// set the border to turqouise for clarity
 			GLuint turq = resource_dict::get_texture_handle(GL_RGB, "#00e5ee");
 			sprites[first_border_sprite + 0].init(turq, 0, -3, 6, 0.2f);
 			sprites[first_border_sprite + 1].init(turq, 0, 3, 6, 0.2f);
