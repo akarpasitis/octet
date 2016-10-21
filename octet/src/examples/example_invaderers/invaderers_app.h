@@ -262,7 +262,7 @@ namespace octet {
 			if (missiles_disabled) {
 				--missiles_disabled;
 			}
-			else if (is_key_going_down(' ')) {
+			else if (is_key_down(' ')) {
 				// find a missile
 				for (int i = 0; i != num_missiles; ++i) {
 					if (!sprites[first_missile_sprite + i].is_enabled()) {
