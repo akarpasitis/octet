@@ -145,11 +145,11 @@ namespace octet {
 		texture_shader texture_shader_;
 
 		enum {
-			num_sound_sources = 8,
+			num_sound_sources = 16,
 			num_rows = 5,
 			num_cols = 10,
-			num_missiles = 2,
-			num_bombs = 2,
+			num_missiles = 4,
+			num_bombs = 4,
 			num_borders = 4,
 			num_invaderers = num_rows * num_cols,
 
